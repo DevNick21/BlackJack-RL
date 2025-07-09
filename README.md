@@ -22,11 +22,7 @@ blackjack-rl/
 │   └── learned_policy_soft_hands.png
 └── training_results.json # Exported training datam features real-time visualization, performance tracking, and strategy analysis tools.
 
-![Blackjack RL Agent](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Complete-success)
-
-## 🎯 **Project Overview**
+### **Project Overview**
 
 This project demonstrates the application of Q-learning to master Blackjack Basic Strategy. The agent learns through 50,000 episodes of simulated gameplay, converging on optimal decision-making that matches established casino Basic Strategy.
 
@@ -39,7 +35,7 @@ This project demonstrates the application of Q-learning to master Blackjack Basi
 - **Interactive Controls**: Start, pause, and reset training simulations
 
 
-## 🚀 **Quick Start**
+###  **Quick Start**
 
 ### **Prerequisites**
 - Python 3.8 or higher
