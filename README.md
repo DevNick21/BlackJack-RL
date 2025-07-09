@@ -1,6 +1,8 @@
 # Blackjack Reinforcement Learning Agent
 
-A comprehensive implementation of a Q-learning agent that learns to play Blackjack optimally through reinforcement le### **Project Structure**
+A comprehensive implementation of a Q-learning agent that learns to play Blackjack optimally through reinforcement learning
+
+### **Project Structure**
 
 ```
 blackjack-rl/
@@ -41,7 +43,6 @@ This project demonstrates the application of Q-learning to master Blackjack Basi
 ### **Prerequisites**
 - Python 3.8 or higher
 - pip package manager
-- Matplotlib with Agg backend (automatically configured in code)
 
 ### **Installation**
 
