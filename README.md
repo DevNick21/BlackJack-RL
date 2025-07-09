@@ -2,29 +2,6 @@
 
 A comprehensive implementation of a Q-learning agent that learns to play Blackjack optimally through reinforcement learning
 
-### **Project Structure**
-
-```
-blackjack-rl/
-├── main.py                # Main training simulation
-├── UI.py                  # User interface components
-├── metrics.ipynb         # Analysis notebook
-├── requirements.txt      # Dependencies
-├── README.md            # This file
-├── assets/              # Game assets (images)
-│   ├── card_*.png       # Card images (2C through AS)
-│   ├── button_*.png     # UI button images
-│   ├── chip_*.png       # Poker chip images
-│   ├── felt_background.png
-│   ├── wooden_rail.png
-│   └── icon_*.png       # UI icons
-├── plots/               # Generated visualizations
-│   ├── win_rate_progression.png
-│   ├── learned_policy_hard_hands.png
-│   └── learned_policy_soft_hands.png
-└── training_results.json # Exported training datam features real-time visualization, performance tracking, and strategy analysis tools.
-```
-
 ### **Project Overview**
 
 This project demonstrates the application of Q-learning to master Blackjack Basic Strategy. The agent learns through 50,000 episodes of simulated gameplay, converging on optimal decision-making that matches established casino Basic Strategy.
