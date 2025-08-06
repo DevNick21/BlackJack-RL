@@ -54,7 +54,7 @@ total_pushes = 0
 winning_rate = 0.0
 
 # Speed of simulation in seconds (0.001 for fast, 1 for slow)
-simulation_speed = 0.001
+simulation_speed = 0.0001
 
 # Helper function for loading assets
 assets = {}

@@ -232,7 +232,3 @@ After 50,000 training episodes:
 - **Q-Value Stability**: Consistent decision-making in key situations
 
 ---
-
-## Interview Project
-
-Built for Flutter International as an interview task.

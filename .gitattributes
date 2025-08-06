@@ -1,0 +1,72 @@
+# Ensure shell scripts have Unix line endings
+*.sh text eol=lf
+
+# Python files should be treated as text
+*.py text diff=python
+
+# Jupyter notebooks - mark as linguist-documentation to exclude from language stats
+# and prevent them from dominating the Python percentage on GitHub
+*.ipynb linguist-documentation
+metrics.ipynb linguist-documentation
+
+# Markdown files
+*.md text
+
+# JSON files
+*.json text
+
+# Requirements files
+requirements*.txt text
+*.txt text
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives are binary
+*.zip binary
+*.tar.gz binary
+*.tgz binary
+*.rar binary
+*.7z binary
+
+# Video files are binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+
+# Audio files are binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.flac binary
+
+# Fonts are binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Office documents are binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.ppt binary
+*.pptx binary
+*.xls binary
+*.xlsx binary
+
+# Executable files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Specific project files
+training_results.json text
+README.md text
